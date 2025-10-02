@@ -1267,7 +1267,7 @@ If individual initiative is enabled, this bonus applies only to the pilot's unit
     </ability>
     <ability>
         <lookupName>compulsion_unpleasant_personality</lookupName>
-        <displayName>Trivial Compulsion - Unpleasant Personality (ATOW)</displayName>
+        <displayName>Trivial Compulsion - Difficult Personality (ATOW)</displayName>
         <desc><![CDATA[-1 to all Charisma-based Skill Checks.
 
 This SPA represents ATOW compulsions such as arrogance and pride.
