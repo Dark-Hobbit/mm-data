@@ -31,6 +31,7 @@
     </scenarioOdds>
     <deploymentTimes>
         <deploymentTimes>3</deploymentTimes>
+        <!-- The value '4' is intentionally repeated three times to weight the probability of selecting 4 as a deployment time. -->
         <deploymentTimes>4</deploymentTimes>
         <deploymentTimes>4</deploymentTimes>
         <deploymentTimes>4</deploymentTimes>
