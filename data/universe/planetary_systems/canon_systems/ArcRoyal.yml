@@ -422,7 +422,7 @@ planet:
             - ARL
         hiringHall:
           source: Hotspots Hinterlands
-          value: Minor
+          value: MINOR
   - name: Harris
     type: ICE_GIANT
     orbitalDist: 2.8
