@@ -1136,6 +1136,52 @@
                 <availability>CC:8+</availability>
             </model>
         </chassis>
+        <chassis name='Field Artillery Platoon (DCMS)' unitType='Infantry'>
+            <availability>DC!A:3!B:2!C:2!D:1!F:1</availability>
+            <model name='(Motorized Sniper 2620+)'>
+                <roles>mixed_artillery</roles>
+                <availability>DC:1+</availability>
+            </model>
+            <model name='(Motorized Thumper 2620+)'>
+                <roles>mixed_artillery</roles>
+                <availability>DC!A:2</availability>
+            </model>
+            <model name='(Tracked Sniper 2620+)'>
+                <roles>mixed_artillery</roles>
+                <availability>DC:6+</availability>
+            </model>
+            <model name='(Tracked Thumper 2620+)'>
+                <roles>mixed_artillery</roles>
+                <availability>DC:7+</availability>
+            </model>
+            <model name='(Wheeled Sniper 2620+)'>
+                <roles>mixed_artillery</roles>
+                <availability>DC:5</availability>
+            </model>
+            <model name='(Wheeled Thumper 2620+)'>
+                <roles>mixed_artillery</roles>
+                <availability>DC:6</availability>
+            </model>
+        </chassis>
+        <chassis name='Field Gunners' unitType='Infantry'>
+            <availability>SL:4,IS:4,CC:0,Periphery:2</availability>
+            <model name='(AC10)'>
+                <roles>field_gun</roles>
+                <availability>General:8</availability>
+            </model>
+            <model name='(AC2)'>
+                <roles>anti_aircraft,field_gun</roles>
+                <availability>General:7</availability>
+            </model>
+            <model name='(AC20)'>
+                <roles>urban,field_gun</roles>
+                <availability>General:5</availability>
+            </model>
+            <model name='(AC5)'>
+                <roles>anti_aircraft,field_gun</roles>
+                <availability>General:8</availability>
+            </model>
+        </chassis>
         <chassis name='Field Gun Platoon (CCAF)' unitType='Infantry'>
             <availability>CC:5+</availability>
             <model name='(Motorized AC10 2465+)'>
@@ -1185,52 +1231,6 @@
             <model name='(Wheeled AC5 2367+)'>
                 <roles>anti_aircraft,field_gun,fire_support,urban</roles>
                 <availability>CC:5+</availability>
-            </model>
-        </chassis>
-        <chassis name='Field Artillery Platoon (DCMS)' unitType='Infantry'>
-            <availability>DC!A:3!B:2!C:2!D:1!F:1</availability>
-            <model name='(Motorized Sniper 2620+)'>
-                <roles>mixed_artillery</roles>
-                <availability>DC:1+</availability>
-            </model>
-            <model name='(Motorized Thumper 2620+)'>
-                <roles>mixed_artillery</roles>
-                <availability>DC!A:2</availability>
-            </model>
-            <model name='(Tracked Sniper 2620+)'>
-                <roles>mixed_artillery</roles>
-                <availability>DC:6+</availability>
-            </model>
-            <model name='(Tracked Thumper 2620+)'>
-                <roles>mixed_artillery</roles>
-                <availability>DC:7+</availability>
-            </model>
-            <model name='(Wheeled Sniper 2620+)'>
-                <roles>mixed_artillery</roles>
-                <availability>DC:5</availability>
-            </model>
-            <model name='(Wheeled Thumper 2620+)'>
-                <roles>mixed_artillery</roles>
-                <availability>DC:6</availability>
-            </model>
-        </chassis>
-        <chassis name='Field Gunners' unitType='Infantry'>
-            <availability>SL:4,IS:4,CC:0,Periphery:2</availability>
-            <model name='(AC10)'>
-                <roles>field_gun</roles>
-                <availability>General:8</availability>
-            </model>
-            <model name='(AC2)'>
-                <roles>anti_aircraft,field_gun</roles>
-                <availability>General:7</availability>
-            </model>
-            <model name='(AC20)'>
-                <roles>urban,field_gun</roles>
-                <availability>General:5</availability>
-            </model>
-            <model name='(AC5)'>
-                <roles>anti_aircraft,field_gun</roles>
-                <availability>General:8</availability>
             </model>
         </chassis>
         <chassis name='Field Gun Platoon (DCMS)' unitType='Infantry'>
@@ -2752,7 +2752,7 @@
             </model>
             <model name='(Rifle 2500+)'>
                 <roles>anti_mek</roles>
-                <availability>CC:7</availability>
+                <availability>CC!A:7!B:5</availability>
             </model>
             <model name='(Rifle AA 2590+)'>
                 <roles>anti_aircraft</roles>
