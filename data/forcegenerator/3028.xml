@@ -3411,7 +3411,11 @@
             </model>
             <model name='(Riot Police 2367+)'>
                 <roles>civilian</roles>
-                <availability>CC:8</availability>
+                <availability>CC:6</availability>
+            </model>
+            <model name='(Riot Police 3030+)'>
+                <roles>civilian</roles>
+                <availability>CC:2+</availability>
             </model>
             <model name='(Sappers 2367+)'>
                 <roles>engineer,minesweeper</roles>
