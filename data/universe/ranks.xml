@@ -5138,7 +5138,7 @@ Rank:
             <payMultiplier>4.0</payMultiplier>
         </rank> <!-- WO10 -->
         <rank>
-            <rankNames>-,-,-,,-,-,-,-,-</rankNames>
+            <rankNames>-,-,-,-,-,-,-,-,-</rankNames>
             <officer>true</officer>
             <payMultiplier>1.17</payMultiplier>
         </rank> <!-- O1 -->
